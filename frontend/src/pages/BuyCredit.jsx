@@ -68,8 +68,8 @@ const BuyCredit = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-2">{plan.id}</h3>
                 <div className="mb-2">
-                  <span className="text-4xl font-bold text-white">₹{plan.price}</span>
-                  <span className="text-gray-300"> / {plan.credits} credits</span>
+                  <span className="text-4xl font-bold text-white">{plan.priceDisplay}</span>
+                  <span className="text-gray-300"> / {plan.credits} Credits</span>
                 </div>
                 <p className="text-gray-300">{plan.desc}</p>
               </div>
@@ -86,7 +86,7 @@ const BuyCredit = () => {
                 className="w-full flex items-center justify-center space-x-3 px-6 py-4 font-bold rounded-xl bg-gradient-to-r from-cyan-500 to-purple-500 text-black hover:from-cyan-400 hover:to-purple-400 shadow-lg shadow-cyan-500/25 transition-all duration-200"
               >
                 <img
-                  src="https://stripe.com/img/v3/home/twitter.png" // Stripe logo URL (official Twitter logo as fallback)
+                  src="https://stripe.com/img/v3/home/twitter.png"
                   alt="Stripe"
                   className="h-6 w-auto"
                 />

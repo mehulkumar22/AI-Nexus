@@ -6,7 +6,6 @@ export const plans = [
     price: 49,
     priceDisplay: '₹49',
     credits: 100,
-    creditsDisplay: '/100 Credits',
     icon: Star,
     gradient: 'from-gray-500 to-gray-600',
     desc: 'Perfect for testing and personal projects',
@@ -18,7 +17,7 @@ export const plans = [
       "Credits never expire"
     ],
     popular: false,
-    cta: 'Buy Now'
+    cta: 'Get Started'
   },
   {
     id: 'Advanced',

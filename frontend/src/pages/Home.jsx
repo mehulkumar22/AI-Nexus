@@ -249,9 +249,10 @@ const Homepage = () => {
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-2">{plan.id}</h3>
                   <div className="mb-2">
-                    <span className="text-4xl font-bold text-white">{plan.price}</span>
-                    <span className="text-gray-300">{plan.credits}</span>
+                    <span className="text-4xl font-bold text-white">{plan.priceDisplay}</span>
+                    <span className="text-gray-300"> / {plan.credits} Credits</span>
                   </div>
+
                   <p className="text-gray-300">{plan.desc}</p>
                 </div>
                 <ul className="space-y-4 mb-8">

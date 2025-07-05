@@ -56,6 +56,6 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.get('/', (req,res) => res.send("API Working"))
+app.get('/', (req,res) => res.send("✅ API Working"))
 
-app.listen(PORT, () => console.log('Server running on port ' + PORT));
+app.listen(PORT, () => console.log('✅ Server running on port ' + PORT));
